@@ -11,3 +11,7 @@ Ao se conectar com o servidor, é autenticado como um usuário válido, e caso d
 # Servidor
 
 Valida os usuários online guardando seus respectivos endereços de IP e realiza o envio de tal informação quando requisita pelo usuário que deseja iniciar um nova conversa.
+
+# Execução
+  - Compilar o código usando gcc ($ gcc nome-do-arquivo.c -o nome-do-executavel)
+  - Execução dos programas via terminal ($ ./nome-do-executavel)
