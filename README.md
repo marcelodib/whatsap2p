@@ -4,15 +4,15 @@ O WhatsApp p2p (peer to peer) é um projeto escrito em C que contém dois módul
 
 A aplicação permite criação de agenda de contato, grupos de conversas, envio de mensagens de texto e fotos.
 
-# Cliente
+## Cliente
 
 Ao se conectar com o servidor, é autenticado como um usuário válido, e caso deseje conversar com alguem, requisita para o servidor o endereço de IP do mesmo, e inicia uma conversa direta.
 
-# Servidor
+## Servidor
 
 Valida os usuários online guardando seus respectivos endereços de IP e realiza o envio de tal informação quando requisita pelo usuário que deseja iniciar um nova conversa.
 
-# Execução
+### Execução
 ```sh
 $ gcc <nome-do-arquivo.c> -o <nome-do-executavel>
 $ ./<nome-do-executavel>
